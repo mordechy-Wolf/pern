@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",              // שינוי כאן – מאפשר imports בלי סיומת .js
+    "moduleResolution": "node",        // שינוי כאן – תואם ל-CommonJS
+    "esModuleInterop": true,           // שומר על תאימות עם חבילות CommonJS
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true
+  }
+}
